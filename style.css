@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blazer */
+.blaze-pagination.testimonial button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background: var(--c3);
+    cursor: pointer;
+    transition: transform 200ms ease, background-color 300ms ease;
+    background-color: #B0B8D0;
+}
+
+.blaze-pagination.testimonial button.active {
+    background-color: #1254FF;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    display: none;
+}
